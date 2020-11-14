@@ -30,3 +30,17 @@ git rm
 	删除文件，并将缓存区中的文件删除
 rm
 	删除文件
+
+
+恢复呗删除的文件需要执行两步操作：
+	1.git reset HEAD test2.txt 将待删除的文件从暂存区中恢复到工作区
+	2.git checkout -- test2.txt 将工作区中的修改丢弃掉
+
+git mv 和mv 的区别
+
+提交的注释修改方式
+	git commit --amend -m "再次修正注释信息"
+
+
+.gitignore与分支
+
