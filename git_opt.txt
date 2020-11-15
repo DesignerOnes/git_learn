@@ -42,5 +42,4 @@ git mv 和mv 的区别
 	git commit --amend -m "再次修正注释信息"
 
 
-.gitignore与分支
 
