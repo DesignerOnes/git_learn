@@ -117,4 +117,15 @@ git refspec:
 
 	推送标签到外网
 	git push origin --tags
-	git push origin v1.0 	
+	git push origin v1.0 
+
+	删除远程标签：
+		git push origin:refs/tags/v2.0
+		git push origin --delete tag v2.0 两种删除的方式
+
+	git log origin/master 查看远程master主干的日志
+
+git gc:
+	会将git中的一些操作移动定压缩到一个叫pack的文件夹中
+
+	
